@@ -23,7 +23,10 @@ y.dir(mraa.DIR_INP) #Input
 #### Python Requests
 To install this, all you have to do is `pip install requests` . However pip does not come installed with Intel Edison as of now.
 To install pip do the following:
-1. Download get-pip.py using `curl -OL https://bootstrap.pypa.io/get-pip.py`
-2. `$ python get-pip.py install`
+
+1. Download get-pip.py using `curl -OL https://bootstrap.pypa.io/get-pip.py`.
+
+2. `$ python get-pip.py install`.
+
 
 ###For any questions/issues please reach out to @rishigb or raise them here
