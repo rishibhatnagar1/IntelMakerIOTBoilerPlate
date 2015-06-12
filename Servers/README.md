@@ -15,6 +15,12 @@ I use Heroku to test all my applications. If you have installed NodeJs on your s
 ``` javascript
 $node app.js
 ```
+####Various examples that I have put up
+1. Send Basic Text to a Server.
+
+2. Send Images to a server(coming soon).
+
+3.Socket IO Integration for your server(coming soon).
 ## Questions?
 But why write your own server when ThingSpeak and a bunch of really good services are already available?
 >In your own product, you need control on everything that you will be working on.
