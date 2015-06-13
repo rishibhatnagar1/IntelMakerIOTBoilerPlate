@@ -21,6 +21,8 @@ $node app.js
 2. Send Images to a server(coming soon).
 
 3.Socket IO Integration for your server(coming soon).
+
+4. Writing an MQTT server for your application(coming soon).
 ## Questions?
 But why write your own server when ThingSpeak and a bunch of really good services are already available?
 >In your own product, you need control on everything that you will be working on.
