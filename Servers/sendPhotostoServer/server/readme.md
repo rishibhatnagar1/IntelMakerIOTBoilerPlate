@@ -5,6 +5,9 @@ Images is the folder that we have created in the code when we use [FilePath:"./i
 
 node_module : It is the folder that contains all the modules required by the server to run it. Basically, all the modules that have been written in the server with 'require' in front of them will be used here. 
 To automatically add all the modules to the server, you should use :
-`$ npm install moduleName -- save`
+
+`$ npm install `
+
+In case something doesn't seem to work please raise an issue here :)
 
 Special thanks to [Ajith N N] (github.com/ajithnn) for helping me out!
