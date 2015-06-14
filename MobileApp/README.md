@@ -12,6 +12,19 @@ Follow this [link](https://developer.android.com/sdk/index.html) for that.
 ### For iOS
 You will need a developer account and all that for a Mac. But just to emulate the entire thing, you will need to intsall XCODE. But then again , if you have been using the command line tools on Mac, you would have already done that.
 
+####Quick sneak peak into how to start
+Create `$ cordova create hello hello.sample.com HelloWorld`
+
+Get in the directory and add platform
+```
+$ cd hello
+$ cordova add platform android 
+$ cordova build 
+```
+The above can be done for ios, android,fire-fox etc. To remove `$ cordova platform remove ios`
+
+[Here](https://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html) are more CLIs for Cordova.
+
 ## Questions?
 But why not use something like MIT App Inventor?
 >Well ofcourse you can, it is good to build an app using it if it is going to be for fun, not when you are trying to build a product. You can not scale an application written in MIT App Inventor.
