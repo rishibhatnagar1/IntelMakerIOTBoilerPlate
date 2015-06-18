@@ -10,5 +10,6 @@ Read more about things here:
 
 ####Also writing about how to intergrate protocols like MQTT and COAP for smoother and light weight systems.
 
+[Here](http://www.rishigb.me/presentation/intel-maker-iot-boilerplate#/) is the link to the talk scheduled for Intel IOT Meetup for 28th June '15
 
 As you already know, I am bad at naming repositories, do let me know if you have suggestions for it :P
