@@ -12,4 +12,6 @@ Read more about things here:
 
 [Here](http://www.rishigb.me/presentation/intel-maker-iot-boilerplate#/) is the link to the talk scheduled for Intel IOT Meetup for 28th June '15
 
+Feel free to contribute. You could add a codes for C/Cpp , GoLang or any other language of your choice. Let's make it a better repo :)
+
 As you already know, I am bad at naming repositories, do let me know if you have suggestions for it :P
