@@ -25,6 +25,8 @@ The above can be done for ios, android,fire-fox etc. To remove `$ cordova platfo
 
 [Here](https://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html) are more CLIs for Cordova.
 
+There are some great tools from Intel to build hybrid apps aswell. Do give them a try!
+
 ## Questions?
 But why not use something like MIT App Inventor?
 >Well ofcourse you can, it is good to build an app using it if it is going to be for fun, not when you are trying to build a product. You can not scale an application written in MIT App Inventor.
