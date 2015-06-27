@@ -55,6 +55,8 @@ def makeGetreq():
         return None
     else:
         return curValue 
+
+x = makeGetreq()
 ```
 
 
@@ -80,5 +82,6 @@ def postRequest(inp):
         r = requests.post(link,data=json.dumps(inp),headers = headers) 
         print (r.text)
         checkResponse()
-        
+
+postRequest({"value":1}) #This format has to be maintained         
 ```
