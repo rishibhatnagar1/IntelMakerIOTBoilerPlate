@@ -1,8 +1,53 @@
 #Server
 The servers written here are the very basic sketch on how you can use NodeJs with your IOT application.
+Before we start:
+![alt tag]()
+
+##Code Flow
+#### Importing Modules
+Typical server code starts with declaration of various modules. This line of code is going to import a module called expres and save it in the variable called express.
+
+```
+var express = require('express')
+```
+#### Creating a condition for POST requests to the server
+When you have a post a value to a link , a post request has to be made. This is how to tell your server what to do on a post request
+
+```
+var cV = 0;
+var app = express()
+app.post('/postLink',function(req,res){
+	console.log(req.body.value); //This will give you the value in the body
+	cV = req.body.value; // Here is where you save the value
+	res.json("Got Request") // sends back to the origin of POST request 
+})
+``` 
+#### Creating a condition for GET requests to the server
+When you have to retrieve a value from a link , a get request had to be made. This is how you tell your server what to do on a GET request.
+
+```
+app.get('/getLink',function(req,res){
+	if (cv!=0){
+		res.send(cV);
+		//To make sure same value is not being sent reset cV
+		cV ="none"
+		}
+})
+```
+#### Ask the server to start listening
+```
+var server = app.listen(process.env.PORT || 3000, function () { //Run the server
+
+  var host = server.address().address
+  var port = server.address().port
+
+  console.log('Example app listening at http://%s:%s', host, port)
+
+})
+
+```
 
 ## Usage
-
 The codes I will be writing here are written in NodeJs,like I mentioned earlier, with express .
 ####Install NodeJs on your system
 Follow this [link](https://nodejs.org/) to get started with NodeJs on your system.
