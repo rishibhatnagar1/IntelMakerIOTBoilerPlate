@@ -45,7 +45,8 @@ To install pip do the following:
 2. `$ python get-pip.py install`
 
 This is how you make a GET request
-``` import requests 
+```
+import requests 
 link ="localhost:3000/"
 def makeGetreq():
     r = requests.get(link)
@@ -56,8 +57,11 @@ def makeGetreq():
         return curValue 
 ```
 
+
 This is how you make a POST request
-``` 
+
+ 
+```
 import requets
 import json
 link ="localhost:3000/"
