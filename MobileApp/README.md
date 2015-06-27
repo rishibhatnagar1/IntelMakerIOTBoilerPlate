@@ -34,10 +34,12 @@ Don't know how to make a website/webapp either? No problems. Follow the followin
 
 Step 1 : Create a sample folder  
  `$ cordova create hello hello.sample.com HelloWorld` 
- ![alt tag](https://github.com/rishibhatnagar1/IntelMakerIOTBoilerPlate/tree/master/images/cordova1.png)
+ 
+ ![alt tag](https://github.com/rishibhatnagar1/IntelMakerIOTBoilerPlate/blob/master/images/cordova1.png)
  
 Step 2: Go to the WWW folder
-![alt tag](https://github.com/rishibhatnagar1/IntelMakerIOTBoilerPlate/tree/master/images/cordova2.png)
+
+![alt tag](https://github.com/rishibhatnagar1/IntelMakerIOTBoilerPlate/blob/master/images/cordova2.png)
 
 and just replace the code in JS files. And you are done!
 
