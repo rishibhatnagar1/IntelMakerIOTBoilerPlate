@@ -1,7 +1,7 @@
 #Server
 The servers written here are the very basic sketch on how you can use NodeJs with your IOT application.
 Before we start:
-![alt tag]()
+![alt tag](https://github.com/rishibhatnagar1/IntelMakerIOTBoilerPlate/blob/master/images/cloud.png)
 
 ##Code Flow
 #### Importing Modules
