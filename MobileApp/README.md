@@ -26,9 +26,23 @@ The above can be done for ios, android,fire-fox etc. To remove `$ cordova platfo
 [Here](https://cordova.apache.org/docs/en/4.0.0/guide_cli_index.md.html) are more CLIs for Cordova.
 
 There are some great tools from Intel to build hybrid apps aswell. Do give them a try!
+##How do you start?
+>Starting with Cordova is super easy. What we really do is build a web app. Yes, <b>WEB</b> app. Read HTML, CSS , JS , Bootstrap, Foundation or any other framework that you might be using to make a landing page and adding some functionality to it.
+>
+
+Don't know how to make a website/webapp either? No problems. Follow the following hacks and enjoy.
+
+Step 1 : Create a sample folder  
+ `$ cordova create hello hello.sample.com HelloWorld` 
+ ![alt tag](/images/cordova1)
+ 
+Step 2: Go to the WWW folder
+![alt tag](/images/cordova2)
+
+and just replace the code in JS files. And you are done!
 
 ## Questions?
 But why not use something like MIT App Inventor?
 >Well ofcourse you can, it is good to build an app using it if it is going to be for fun, not when you are trying to build a product. You can not scale an application written in MIT App Inventor.
->Need less to say you can not even use it to make an iOS app. The UI sucks. You can't really build anything which has a super intutive UI without hitting your head in the screen a few too many times.
->This is coming from a guy who was using MIT App Inventor to build apps till last year. That is when I discovered the beauty of Cordova and frameworks like Ionic(?). Don't worry it will all come to you so>on.
+Need less to say you can not even use it to make an iOS app. The UI sucks. You can't really build anything which has a super intutive UI without hitting your head in the screen a few too many times.
+This is coming from a guy who was using MIT App Inventor to build apps till last year. That is when I discovered the beauty of Cordova and frameworks like Ionic(?). Don't worry it will all come to you so>on.
