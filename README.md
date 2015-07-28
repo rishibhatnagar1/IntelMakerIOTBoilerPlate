@@ -8,6 +8,8 @@ Read more about things here:
 
 3.[Mobile Apps](https://github.com/rishibhatnagar1/IntelMakerIOTBoilerPlate/tree/master/MobileApp/README.md).
 
+A desktop application for Mac/linux/Windows can be made using tools like [AppJs](http://appjs.com/). Follow this(http://stackoverflow.com/questions/12232784/how-to-develop-desktop-apps-using-html-css-javascript) to know more on how to build something at scale.
+
 ####Also writing about how to intergrate protocols like MQTT and COAP for smoother and light weight systems.
 
 [Here](http://www.rishigb.me/presentation/intel-maker-iot-boilerplate#/) is the link to the talk scheduled for Intel IOT Meetup for 28th June '15
